@@ -1,0 +1,108 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./src/img/bg-repeat.jpg);
+    background-size: contain;
+}
+
+.conteudo {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.conteudo .texto {
+    color: #ffffff;
+}
+
+.conteudo .texto h1 {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.conteudo .texto p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+span {
+    font-weight: bold;
+}
+
+.conteudo .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45%;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+.conteudo .formulario input {
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 900;
+    padding-left: 5px;  
+}
+
+.conteudo .formulario input:nth-child(2n+7) {
+    height: 100px;
+    width: 250px;
+}
+
+.conteudo .formulario .enviar {
+    padding: 15px 20px 30px 20px;
+    color: #ffffff;
+    background-color: #57bd60;
+    border: none;
+    font-size: 15px;
+    cursor: pointer; 
+}
+
+.conteudo .formulario .texto-maior {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 900;
+    padding-left: 5px;
+}
+
+
+.conteudo .formulario .campo{
+    font-size: 12px;
+    color: red;
+    padding-bottom: 6px;
+}
+
+
+.formulario .pergunta.sem-preenchimento {
+    border: 2px solid red;
+    position: relative;
+}
+
+.formulario .pergunta.borda-verde{
+    border: 2px solid #57bd60;
+    position: relative;
+}
+
+.formulario .texto-maior.borda{
+    border: 2px solid #57bd60;
+}
+
+.formulario .texto-maior.borda-vermelha {
+    border: 2px solid red;
+    position: relative;
+}
+
+.formulario .aviso {
+    padding-bottom: 5px;
+}
+.ocultar {
+    opacity: 0;
+}

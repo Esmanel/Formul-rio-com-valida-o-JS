@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <!-- <img src="./src/img/bg-repeat.jpg" alt=""> -->
+    <main>
+        <section class="conteudo">
+            <section class="texto">
+                <h1>Ficou com dúvida?</h1>
+                <h1>Nos mande uma mensagem!</h1>
+
+                <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato <span>em menos de 24h</span>.</p>
+            </section>
+
+            <form class="formulario" action="">
+                <input class="pergunta" id="nome"  type="text" placeholder="Nome completo*"> 
+                <p class="campo ocultar">Campo obrigatório</p>
+
+                <input class="pergunta" id="email" type="text" placeholder="Email*">
+                <p class="campo ocultar">Campo obrigatório</p>
+
+                <input class="pergunta" id="telefone" type="number" placeholder="Telefone*">
+                <p class="campo ocultar">Campo obrigatório</p>
+
+                <input class="pergunta" name="mensagem" placeholder="Mensagem*"></input>
+                <p class="campo ocultar">Campo obrigatório</p>
+
+                <p class="aviso">*Campos obrigatórios</p>
+
+                <input class="enviar" type="submit" value="Enviar">
+            </form>
+
+            
+        </section>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
